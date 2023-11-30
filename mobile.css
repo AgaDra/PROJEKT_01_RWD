@@ -12,8 +12,8 @@ body {
   background-color: #152d41;
 }
 .container {
-  width: 450px;
-  margin: 0 15px;
+  width: 90%;
+  margin: 0 auto;
 }
 .section {
   padding: 50px 0;
@@ -66,13 +66,12 @@ body {
 }
 
 .main-page-slogan {
-  width: 360px;
+  width: 80%;
   font-size: 36px;
   font-weight: 700;
 }
 
 .main-page-subtitle {
-  width: 360px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -118,7 +117,6 @@ body {
 }
 
 .our-crew-section-content {
-  width: 450px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -199,7 +197,6 @@ body {
 }
 
 .offer-section-content {
-  width: 450px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -217,12 +214,14 @@ body {
   width: fit-content;
   padding: 65px 0px 0px 0px;
   display: grid;
-  grid-template-columns: 340px;
-  grid-template-rows: 330px 330px 330px 330px 330px 330px;
+  grid-template-columns: auto;
+
   gap: 60px;
 }
 
 .offer-tile {
+  width: 200px;
+  height: 210px;
   padding: 10px 10px 10px 10px;
   display: flex;
   justify-content: center;
@@ -269,7 +268,6 @@ body {
 }
 
 .footer-content {
-  width: 450px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -278,8 +276,8 @@ body {
   gap: 30px;
 }
 .rodo {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 400;
 }
 .footer-icons {
   display: flex;

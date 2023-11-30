@@ -1,6 +1,6 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
   }
   /* ---NAVIGATION --- */
@@ -42,51 +42,6 @@
     transition-duration: 1s;
   }
 
-  /* ---OUR CREW SECTION--- */
-
-  .our-crew-section {
-    height: auto;
-    background-color: #f1f1f1;
-  }
-
-  .our-crew-section-content {
-    width: 960px;
-    align-items: center;
-  }
-
-  .our-crew-section-content {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .our-crew-list-element {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-  }
-
-  .our-crew-list-element:nth-of-type(even) {
-    flex-direction: row-reverse;
-  }
-
-  .list-element-nth-of-type-even {
-    text-align: end;
-  }
-
-  .crew-name {
-    font-size: 18px;
-    font-weight: 700;
-    color: #000000;
-  }
-
-  .crew-description {
-    font-size: 18px;
-    font-weight: 400;
-    color: #000000;
-  }
-
   /* <!-- OFFER SECTION --> */
 
   .offer-section-slogan {
@@ -96,7 +51,7 @@
 
   .offer-tiles {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
   }
 
   .offer-tile {
@@ -110,11 +65,11 @@
   }
 
   .orange-point {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
 
-    top: -10px;
-    left: -10px;
+    top: -14px;
+    left: -14px;
   }
 
   /* FOOTER */
@@ -128,12 +83,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .rodo {
-    font-size: 17px;
-    font-weight: 400;
-  }
-
-  .icon {
+  c .icon {
     color: #fafafa;
   }
 }
