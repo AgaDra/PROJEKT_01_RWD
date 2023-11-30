@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #152d41;
+}
+.container {
+  width: 450px;
+  margin: 0 15px;
+}
+.section {
+  padding: 50px 0;
+}
+
+/* ---NAVIGATION --- */
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  background-color: #4e4e4e;
+}
+
+.navigation-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company {
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-item-list {
+  display: none;
+}
+
+/* ---HEADER--- */
+
+.main-page {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/Tło\ sekcji.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-page-content {
+  position: relative;
+  z-index: 1;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.main-page-slogan {
+  width: 360px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-page-subtitle {
+  width: 360px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-page-cto {
+  width: fit-content;
+  padding: 10px 50px;
+
+  background-color: transparent;
+
+  border: 3px solid #fff;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.main-page-cto:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.main-page-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #000000;
+  opacity: 15%;
+}
+
+/* ---OUR CREW SECTION--- */
+
+.our-crew-section {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.our-crew-section-content {
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.crew-section-slogan {
+  font-size: 36px;
+  font-weight: 700;
+  color: #152d41;
+}
+
+.our-crew-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-crew-list-element {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.our-crew-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-element-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-element-nth-of-type-odd {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: start;
+}
+
+.list-element-nth-of-type-even {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: start;
+}
+
+.crew-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.crew-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  display: flex;
+  text-align: justify;
+}
+
+/* <!-- OFFER SECTION --> */
+.offer-section {
+  width: 100%;
+  height: auto;
+
+  background-color: #405d78;
+}
+
+.offer-section-content {
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer-section-slogan {
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.offer-tiles {
+  width: fit-content;
+  padding: 65px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 340px;
+  grid-template-rows: 330px 330px 330px 330px 330px 330px;
+  gap: 60px;
+}
+
+.offer-tile {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 3px;
+
+  background-color: #f1f1f1;
+}
+
+.tile-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.tile-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.new {
+  position: relative;
+}
+
+.orange-point {
+  width: 38px;
+  height: 38px;
+  background-color: #e07a64;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -18px;
+  left: -18px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #4e4e4e;
+}
+
+.footer-content {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.rodo {
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  color: #fafafa;
+}
