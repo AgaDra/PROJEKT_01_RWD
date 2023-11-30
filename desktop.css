@@ -5,41 +5,24 @@
   }
   /* ---NAVIGATION --- */
 
-  .nav-item-list {
-    display: flex;
-    gap: 46px;
+  @media (hover: hover) {
+    .nav-item:hover {
+      cursor: pointer;
+    }
   }
 
-  .nav-item {
-    font-size: 18px;
-    font-weight: 400;
-    color: #f1f1f1;
-    cursor: pointer;
-  }
-
-  .nav-cto {
-    font-size: 18px;
-    font-weight: 400;
-    color: #f1f1f1;
-    text-decoration: none;
-  }
-
-  .not-allowed {
-    cursor: not-allowed;
+  @media (hover: hover) {
+    .not-allowed:hover {
+      cursor: not-allowed;
+    }
   }
 
   /* ---HEADER--- */
 
-  .main-page-slogan {
-    width: 570px;
-  }
-
-  .main-page-subtitle {
-    width: 570px;
-  }
-  .main-page-cto {
-    cursor: pointer;
-    transition-duration: 1s;
+  @media (hover: hover) {
+    .main-page-cto:hover {
+      cursor: pointer;
+    }
   }
 
   /* ---OUR CREW SECTION--- */
@@ -71,7 +54,7 @@
     flex-direction: row-reverse;
   }
 
-  .list-element-nth-of-type-even {
+  .list-element:nth-of-type(even) {
     text-align: end;
   }
 
@@ -89,24 +72,17 @@
 
   /* <!-- OFFER SECTION --> */
 
-  .offer-section-slogan {
-    font-size: 36px;
-    padding-top: 0px;
-  }
-
   .offer-tiles {
     display: grid;
     grid-template-columns: auto auto auto;
   }
 
-  .offer-tile {
-    cursor: pointer;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.5s linear;
-  }
-
-  .offer-tile:hover {
-    scale: 1.05;
+  @media (hover: hover) {
+    .offer-tile:hover {
+      cursor: pointer;
+      transition: 0.5s linear;
+      scale: 1.05;
+    }
   }
 
   .orange-point {
@@ -115,25 +91,5 @@
 
     top: -10px;
     left: -10px;
-  }
-
-  /* FOOTER */
-  .footer {
-    height: 70px;
-  }
-
-  .footer-content {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .rodo {
-    font-size: 17px;
-    font-weight: 400;
-  }
-
-  .icon {
-    color: #fafafa;
   }
 }

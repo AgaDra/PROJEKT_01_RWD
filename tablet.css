@@ -14,7 +14,6 @@
     font-size: 18px;
     font-weight: 400;
     color: #f1f1f1;
-    cursor: pointer;
   }
 
   .nav-cto {
@@ -22,10 +21,6 @@
     font-weight: 400;
     color: #f1f1f1;
     text-decoration: none;
-  }
-
-  .not-allowed {
-    cursor: not-allowed;
   }
 
   /* ---HEADER--- */
@@ -36,10 +31,6 @@
 
   .main-page-subtitle {
     width: 570px;
-  }
-  .main-page-cto {
-    cursor: pointer;
-    transition-duration: 1s;
   }
 
   /* <!-- OFFER SECTION --> */
@@ -55,13 +46,15 @@
   }
 
   .offer-tile {
-    cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.5s linear;
   }
 
-  .offer-tile:hover {
-    scale: 1.05;
+  @media (hover: hover) {
+    .offer-tile:hover {
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      transition: 0.5s linear;
+      scale: 1.05;
+    }
   }
 
   .orange-point {
@@ -77,13 +70,12 @@
     height: 70px;
   }
 
+  .rodo {
+    font-size: 18px;
+  }
+
   .footer-content {
-    height: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  c .icon {
-    color: #fafafa;
   }
 }
