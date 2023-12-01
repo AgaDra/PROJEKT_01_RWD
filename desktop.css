@@ -45,6 +45,9 @@
 
   .offer-tiles {
     grid-template-columns: auto auto auto;
+    transition: transform 1s linear;
+  }
+  .offer-tile {
     transition: transform 0.5s linear;
   }
 
