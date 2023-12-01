@@ -1,7 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 80%;
-    margin: 0 auto;
   }
   /* ---NAVIGATION --- */
 
@@ -41,28 +40,11 @@
   }
 
   .offer-tiles {
-    display: grid;
     grid-template-columns: auto auto;
   }
 
   .offer-tile {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-
-  @media (hover: hover) {
-    .offer-tile:hover {
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-      transition: 0.5s linear;
-      scale: 1.05;
-    }
-  }
-
-  .orange-point {
-    width: 28px;
-    height: 28px;
-
-    top: -14px;
-    left: -14px;
   }
 
   /* FOOTER */

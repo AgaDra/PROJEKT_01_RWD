@@ -8,8 +8,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #fff;
-  background-color: #152d41;
+  color: #ffff;
 }
 .container {
   width: 90%;
@@ -22,7 +21,6 @@ body {
 /* ---NAVIGATION --- */
 
 .navigation {
-  width: 100%;
   height: 50px;
   background-color: #4e4e4e;
 }
@@ -46,7 +44,6 @@ body {
 .main-page {
   position: relative;
 
-  width: 100%;
   height: 100vh;
   background-image: url("/assets/las.png");
   background-repeat: no-repeat;
@@ -57,7 +54,6 @@ body {
 .main-page-content {
   position: relative;
   z-index: 1;
-
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -102,7 +98,6 @@ body {
   top: 0;
   left: 0;
 
-  width: 100%;
   height: 100%;
 
   background-color: #000000;
@@ -112,7 +107,6 @@ body {
 /* ---OUR CREW SECTION--- */
 
 .our-crew-section {
-  width: 100%;
   height: auto;
   background-color: #f1f1f1;
 }
@@ -122,6 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 50px;
 }
 
@@ -143,6 +138,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: start;
   gap: 50px;
 }
 
@@ -153,18 +149,10 @@ body {
   object-fit: cover;
 }
 
-.list-element-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .list-element {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
-  text-align: start;
 }
 
 .crew-name {
@@ -177,15 +165,11 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #000000;
-  display: flex;
-  text-align: left;
 }
 
 /* <!-- OFFER SECTION --> */
 .offer-section {
-  width: 100%;
   height: auto;
-
   background-color: #405d78;
 }
 
@@ -195,7 +179,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
+
 .offer-section-slogan {
   padding-top: 20px;
   font-size: 26px;
@@ -208,13 +194,12 @@ body {
   padding: 65px 0px 0px 0px;
   display: grid;
   grid-template-columns: auto;
-
   gap: 60px;
 }
 
 .offer-tile {
-  width: 200px;
-  height: 210px;
+  width: 250px;
+  height: 270px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -243,19 +228,18 @@ body {
 }
 
 .orange-point {
-  width: 38px;
-  height: 38px;
+  width: 28px;
+  height: 28px;
   background-color: #e07a64;
   border-radius: 50%;
 
   position: absolute;
-  top: -18px;
-  left: -18px;
+  top: -14px;
+  left: -14px;
 }
 
 /* FOOTER */
 .footer {
-  width: 100%;
   height: 150px;
   background-color: #4e4e4e;
 }
@@ -266,6 +250,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 30px;
 }
 .rodo {
